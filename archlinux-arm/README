@@ -1,0 +1,21 @@
+---
+# ArchLinux ARM
+- Others have attempted and succeeded on this; but the process from which to do it has since become outdated...
+# Links
+- Some links are below;
+-- https://github.com/reey/PKGBUILDs
+---- This repo contains PKGBUILDs for a mainline kernel
+---- Additionally it made some releases of mainline kernels before going inactive
+-- https://github.com/RaumZeit/LinuxOnAcerCB5-311
+---- A really bad shell script to install ArchLinux ARM to $1 or the drive
+---- The script is extremely outdated and I would NOT recommend using it
+-- https://github.com/reey/LinuxOnAcerCB5-311
+---- A fork of the above script that is ~10% better; would still not recommend however
+---- Although this repo contains a uboot room as well as a uboot install script which are helpful for those attempting uboot
+-- http://www.clifford.at/blog/index.php?/archives/131-Installing-Ubuntu-on-an-Acer-Chromebook-13-Tegra-K1.html
+---- The orginal writeup; Everything here is far too out of date to be of much use
+-- https://github.com/RaumZeit/PKGBUILDs/tree/master/alarm/gpu-nvidia-tegra-k1
+---- A PKGBUILD for the closed source GPU drivers; too out of date to be used anymore; needs heavy work
+-- http://www.tbi.univie.ac.at/~ronny/acer-cb5-311.html
+---- Another writeup based off RaumZeit/LinuxOnAcerCB5-311; useless other then some tibits about sound and drivers
+---
