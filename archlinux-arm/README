@@ -18,4 +18,8 @@
 ---- A PKGBUILD for the closed source GPU drivers; too out of date to be used anymore; needs heavy work
 -- http://www.tbi.univie.ac.at/~ronny/acer-cb5-311.html
 ---- Another writeup based off RaumZeit/LinuxOnAcerCB5-311; useless other then some tibits about sound and drivers
+-- https://archlinuxarm.org/forum/viewtopic.php?f=49&t=12185
+---- The orginal forum, features alot of info not found elsewhere
+-- https://github.com/LordRafa/ALARMOnTegraK1
+---- What I believe to be the only update writeup on this process; am currently testing it.
 ---
