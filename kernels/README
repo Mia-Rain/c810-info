@@ -1,15 +1,18 @@
 ---
 # Kernels
 - Getting a working kernel is everything; there are a few sources for precompiled ones
-- But kernels > 5.1 seem to break with egl
 # Links
 - Some links are below;
 -- https://github.com/hexdump0815/linux-mainline-tegra-k1-kernel
----- These kernels appear to be used to make ubuntu and debian builds for the tegra k1; > 5.1
+---- These kernels appear to be used to make ubuntu and debian builds for the tegra k1
 -- https://github.com/LordRafa/ALARMOnTegraK1/releases
 ---- Appears to have a few > 5.1 kernels; for the jetson k1; untested on nyan boards USE AT OWN RISK
 -- https://github.com/reey/PKGBUILDs/releases
 ---- Many <= 5.1 kernels
 -- http://www.tbi.univie.ac.at/~ronny/alarm/
 ---- A few 3.10.18 kernels
+# egl
+- every kernel I tested failed to initialise glamor...
+- I can only guess that it's a problem with mesa(?)
+- I will investigate more
 ---

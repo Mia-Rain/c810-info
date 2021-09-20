@@ -21,5 +21,5 @@
 -- https://archlinuxarm.org/forum/viewtopic.php?f=49&t=12185
 ---- The orginal forum, features alot of info not found elsewhere
 -- https://github.com/LordRafa/ALARMOnTegraK1
----- What I believe to be the only update writeup on this process; am currently testing it.
+---- A mostly up to date writeup on alarm for the jetson k1; SHOULD NOT BE USED FOR NYAN BOARDS
 ---
