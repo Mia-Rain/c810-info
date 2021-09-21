@@ -11,8 +11,4 @@
 ---- Many <= 5.1 kernels
 -- http://www.tbi.univie.ac.at/~ronny/alarm/
 ---- A few 3.10.18 kernels
-# egl
-- every kernel I tested failed to initialise glamor...
-- I can only guess that it's a problem with mesa(?)
-- I will investigate more
 ---

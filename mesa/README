@@ -1,0 +1,18 @@
+---
+# Getting working mesa with hardware acceleration
+- This is acutally really hard since it's completely based on a mix of the kernel and distro 
+## Writeup
+-- https://github.com/hexdump0815/linux-mainline-tegra-k1-kernel/
+---- The above link holds proof that it can be done; although there appears to be a bug with the gallium nouveau driver
+---- Thankfully a patch to fix said bug exists; see below
+-- https://github.com/hexdump0815/mesa-etc-build/blob/master/tegra-hack.patch
+---- This patch is considered a hack, and is not upstream despite being over a year old
+---- This appears to be because there are still some issues; mostly with artifacting
+-- https://gitlab.freedesktop.org/mesa/mesa/-/issues/3505
+---- Above is the orginal issue
+# Outside Ubuntu
+-- The proof exists in with the above linked repo/issue; only issue is that the proof came from an ubuntu host system
+-- I have attempted multiple times with ArchLinuxARM and failed to get mesa working at all.
+-- I am currently attempting with alpine and a custom mesa build; I will update this repo again when I have more info
+-- If all fails we will have to work with Ubuntu.
+---
