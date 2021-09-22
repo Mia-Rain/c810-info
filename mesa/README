@@ -13,6 +13,12 @@
 # Outside Ubuntu
 -- The proof exists in with the above linked repo/issue; only issue is that the proof came from an ubuntu host system
 -- I have attempted multiple times with ArchLinuxARM and failed to get mesa working at all.
--- I am currently attempting with alpine and a custom mesa build; I will update this repo again when I have more info
--- If all fails we will have to work with Ubuntu.
+# Current status
+-- Unknown.
+-- There is alot of conflicting info from the above linked repo
+-- Some says that nouveau doesn't work at all
+-- Some says it works only after starting xorg with llvmpipe (???)
+-- And I am unable to get it working via nouveau
+-- None the less fbdev works fine; and is actually fast (??) 
+
 ---

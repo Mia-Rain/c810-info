@@ -1,0 +1,12 @@
+---
+# Audio
+- Getting sound working from a Linux setup
+## ucm2
+-- Others from the forum have mentioned that their sound seemingly stopped working one day
+-- I can't find the source of why for this; but hexdump0815 has a fix again
+### Installing
+-- https://github.com/hexdump0815/imagebuilder/tree/main/systems/chromebook_nyan/extra-files
+---- Copy all files from etc/ and usr/share/alsa/ucm2/ from the above repo to your system
+---- from there a normal `alsactl restore` on boot + a login manager with pulseaudio
+---- seems to make everything work perfectly (!!!)
+---

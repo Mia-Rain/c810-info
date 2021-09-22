@@ -1,0 +1,18 @@
+---
+# info
+- Info found here relates to the CB5-311 and c810 Chromebooks
+- And MAYBE the Acer Chromebase nyan-kitty
+## Thanks
+- Thanks goes out to the following users;
+-- hexdump0815 - github.com/hexdumpp0815
+---- For basically all fixes;
+---- After reading over the forum and everything for ArchLinuxARM
+---- Their imagebuilder and kernel repos had fixes for everything
+---- I can't say it enough; basically nothing would work if it weren't for the progress of hexdump0815
+---- Whoever you are, thank you. I have spent years trying to make my Nyan-big Chromebooks work with native linux
+---- And was always so close yet so far; with your work it has been achived.
+-- Reey - github.com/reey
+---- For the old kernels and most of the orginal ArchLinuxARM forum
+-- RaumZeit / Ronny Lorenz - https://tbi.univie.ac.at/~ronny
+---- For all the orginal work; and info on the Closed Source Nvidia drivers
+---
